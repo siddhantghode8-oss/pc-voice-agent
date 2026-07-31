@@ -1,0 +1,91 @@
+RUN INSTRUCTIONS FOR PC VOICE AGENT
+====================================
+
+Your PC Voice Agent is ready to use!
+
+STEP 1: CHECK YOUR API KEY
+==========================
+Make sure you edited the .env file and replaced:
+  sk_your_api_key_here
+With your actual OpenAI API key from:
+  https://platform.openai.com/api-keys
+
+IMPORTANT: You must enable billing on your OpenAI account!
+Visit: https://platform.openai.com/account/billing/overview
+
+
+STEP 2: TEST THE AGENT (RECOMMENDED)
+====================================
+Run the demo mode first (no microphone needed):
+
+  python demo.py
+
+Then type commands like:
+  - "Open Notepad"
+  - "Launch Chrome"
+  - "Take a screenshot"
+  - "Create a folder called test"
+
+Type 'exit' or 'quit' to stop
+
+
+STEP 3: RUN WITH VOICE (OPTIONAL)
+==================================
+Once you verify it works, try voice mode:
+
+  python main.py
+
+This will:
+  1. Listen to your microphone
+  2. Convert speech to text
+  3. Use AI to understand your command
+  4. Execute it on your PC
+  5. Press Enter between commands
+
+
+STEP 4: VERIFY INSTALLATION
+============================
+Check that everything is installed:
+
+  python verify_install.py
+
+Should show all packages OK
+
+
+WHAT TO DO IF YOU SEE ERRORS
+=============================
+
+"OPENAI_API_KEY not found"
+-> Check .env file exists and has your key
+
+"Exceeded your current quota"
+-> Add payment method to OpenAI account
+
+"Microphone not found"
+-> Use demo.py instead (text mode)
+
+"Speech not recognized"
+-> Speak clearly and slowly
+-> Check internet connection
+
+
+QUICK START COMMAND
+===================
+Open PowerShell and run:
+
+  cd "c:\Users\Admiin\New folder\pc_voice_agent"
+  python demo.py
+
+Try typing: open notepad
+Then: exit
+
+
+PROJECT LOCATION
+================
+c:\Users\Admiin\New folder\pc_voice_agent\
+
+Files:
+  main.py           - Voice agent (with microphone)
+  demo.py           - Text input mode (no mic needed)
+  .env              - Your API key goes here
+  README.md         - Full documentation

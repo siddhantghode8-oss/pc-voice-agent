@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "content": "open notpad",
+    "timestamp": "2026-07-24T01:11:09.308979"
+  },
+  {
+    "role": "assistant",
+    "content": "{'action': 'none', 'reasoning': \"Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}\", 'confidence': 0, 'response_text': 'I encountered an error processing that'}",
+    "timestamp": "2026-07-24T01:11:14.103164"
+  },
+  {
+    "role": "user",
+    "content": "what can you do",
+    "timestamp": "2026-07-24T01:11:38.484673"
+  },
+  {
+    "role": "assistant",
+    "content": "{'action': 'none', 'reasoning': \"Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}\", 'confidence': 0, 'response_text': 'I encountered an error processing that'}",
+    "timestamp": "2026-07-24T01:11:41.545565"
+  }
+]
